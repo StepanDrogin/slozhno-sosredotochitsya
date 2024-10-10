@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
-
     <title>Сложно сосредоточиться</title>
 
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
 
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
   </head>
+
   <body class="page">
     <header class="header decorated-zone">
       <div aria-hidden="true" class="header__decorative-element"></div>
@@ -55,12 +56,12 @@
     </header>
 
     <main class="main">
-      <section class="content-section">
+      <section class="content-section content-section--spacing">
         <h2 class="title topic-concentration__title">
           Почему сосредоточиться так сложно
         </h2>
         <ul class="card-list">
-          <li class="card-list__item">
+          <li class="card-list__item card-list__item--highlighted">
             <h3 class="title title_colored card-list__title">
               Многозадачность
             </h3>
@@ -96,7 +97,8 @@
           </li>
         </ul>
       </section>
-      <section class="content-section">
+
+      <section class="content-section content-section--spacing content-section--split">
         <h2 class="title">Что снижает концентрацию внимания?</h2>
         <ul class="card-list">
           <li class="card-list__item">
@@ -137,7 +139,8 @@
           </li>
         </ul>
       </section>
-      <section class="content-section">
+
+      <section class="content-section content-section--spacing">
         <h2 class="title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
@@ -212,46 +215,47 @@
           </ul>
         </article>
       </section>
-      <section class="content-section">
-        <h2 class="title title_colored">А можно в картинках?</h2>
-        <ul class="image-list">
-          <li class="image-list__item">
-            <img
-              src="./images/sunset.png"
-              alt="Минималистичный пейзаж заходящего солнца."
-              loading="lazy"
-            />
-          </li>
-          <li class="image-list__item">
-            <img
-              src="./images/ice-cream.png"
-              alt="Мороженное из четырёх шариков с мультяшными лицами."
-              loading="lazy"
-            />
-          </li>
-          <li class="image-list__item">
-            <img
-              src="./images/tape.png"
-              alt="Минималистичная иллюстрация кассеты, курсора и на фиолетовом градиенте."
-              loading="lazy"
-            />
-          </li>
-          <li class="image-list__item">
-            <img
-              src="./images/books.png"
-              alt="Стопка из книг с кружкой наверху."
-              loading="lazy"
-            />
-          </li>
-          <li class="image-list__item">
-            <img
-              src="./images/street.png"
-              alt="Минималистичная иллюстрация дневной улицы в фиолетовом фильтре."
-              loading="lazy"
-            />
-          </li>
-        </ul>
-      </section>
+
+<section class="content-section content-section--images">
+  <h2 class="title title_colored">А можно в картинках?</h2>
+  <ul class="image-list">
+    <li class="image-list__item image-list__item--large">
+      <img
+        src="./images/sunset.png"
+        alt="Минималистичный пейзаж заходящего солнца."
+        loading="lazy"
+      />
+    </li>
+    <li class="image-list__item image-list__item--tall">
+      <img
+        src="./images/ice-cream.png"
+        alt="Мороженное из четырёх шариков с мультяшными лицами."
+        loading="lazy"
+      />
+    </li>
+    <li class="image-list__item image-list__item--wide">
+      <img
+        src="./images/tape.png"
+        alt="Минималистичная иллюстрация кассеты, курсора и на фиолетовом градиенте."
+        loading="lazy"
+      />
+    </li>
+    <li class="image-list__item">
+      <img
+        src="./images/books.png"
+        alt="Стопка из книг с кружкой наверху."
+        loading="lazy"
+      />
+    </li>
+    <li class="image-list__item image-list__item--full-width">
+      <img
+        src="./images/street.png"
+        alt="Минималистичная иллюстрация дневной улицы в фиолетовом фильтре."
+        loading="lazy"
+      />
+    </li>
+  </ul>
+</section>
     </main>
 
     <footer class="footer decorated-zone">
