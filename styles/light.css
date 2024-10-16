@@ -1,49 +1,40 @@
 .page.theme_light {
-  --main-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --main-title-color: #ffc2e6;
+  --background-image: url(../images/cover-image-light.png);
+  --shadow-and-bg-color:  #ff8dcb;
+  --shadow-and-bg-color-rec:  transparent;
+  --header-font-color: #ffc2e6;
+  --font-color: #353430;
   --main-font-color: #353430;
-  --title-color: #353430;
-  --accent-title-color: #353430;
-  --outline-color: #353430;
-  --theme-button-color: #353430;
-  --hover-color: rgba(50, 49, 45, 0.4);
-
-  --main-font: "IBM Plex mono";
-  --main-font-size: 18px;
-  --main-font-weight: 400;
-  --accent-font-weight: 700;
-
-  --header-cover: url(../images/cover-image-light.png);
-  --container-padding: min(2.67vi, 20px);
-}
-
-.page.theme_light .header__decorative-element {
-  display: none;
+  --header-font-color-button: #353430;
+  --header-border-button-hover: #32312D66;
+  --header-border-button: #353430;
+  --corner-color: #353430;
+  --card-question-color: #353430;
+  --rec: none;
+  --circl-radius: 0;
+  --shadow: 2px 2px var( --shadow-and-bg-color);
+  --shadow-rec: none;
+  --background-color: transparent;
+  --display-decorated-text: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color: #fff1f7;
-    --accent-color: #ff8dcb;
-    --main-title-color: #ffc2e6;
+    --background-image: url(../images/cover-image-light.png) center / cover;
+    --shadow-and-bg-color: #ff8dcb;
+    --shadow-and-bg-color-rec: transparent;
+    --header-font-color: #ffc2e6;
+    --font-color: #353430;
     --main-font-color: #353430;
-    --title-color: #353430;
-    --accent-title-color: #353430;
-    --outline-color: #353430;
-    --theme-button-color: #353430;
-    --hover-color: rgba(50, 49, 45, 0.4);
-
-    --main-font: "IBM Plex mono";
-    --main-font-size: 18px;
-    --main-font-weight: 400;
-    --accent-font-weight: 700;
-
-    --header-cover: url(../images/cover-image-light.png);
-    --container-padding: min(2.67vi, 20px);
-  }
-
-  .header__decorative-element {
-    display: none;
+    --header-font-color-button: #353430;
+    --header-border-button-hover: #32312D66;
+    --header-border-button: #353430;
+    --corner-color: #353430;
+    --card-question-color: #353430;
+    --rec: none;
+    --circl-radius: 0;
+    --shadow: 2px 2px var(--shadow-and-bg-color);
+    --shadow-rec: none;
+    --background-color: transparent;
   }
 }

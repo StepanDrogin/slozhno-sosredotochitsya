@@ -1,19 +1,32 @@
 :root {
-  --main-color: #000028;
-  --main-font-color: #f1b2ce;
-  --main-title-color: #db00ff;
-  --accent-color: #ff0070;
-  --outline-color: #ff0070;
-  --theme-button-color: #ff0070;
-  --title-color: #ff0070;
-  --accent-title-color: #000028;
-  --hover-color: rgba(255, 0, 112, 0.4);
-
-  --main-font: "IBM Plex mono";
-  --main-font-size: 18px;
-  --main-font-weight: 400;
-  --accent-font-weight: 700;
-
-  --header-cover: url(../images/cover-image-dark.png);
-  --container-padding: min(2.67vi, 20px);
+  --font-name: "IBM Plex mono";
+  --font-size-text: 18px;
+  --font-fat: 700;
+  --font-thin: 400;
+  --font-line-height-title: 129.53px;
+  --font-height-text: 23.4px;
+  --padding-mobile: 10px;
+  --padding-desktop: 20px;
+  --card-column: calc((100% * (325 / (325 + 650))) + 0.7%)
+    calc((100% * (650 / (325 + 650))) - 0.7%);
+  --block-padding: 60px;
+  --background-image: url(../images/cover-image-dark.png);
+  --shadow-and-bg-color: #ff0070;
+  --header-font-color: #db00ff;
+  --font-color: #f1b2ce;
+  --main-font-color: #000028;
+  --font-color-accent-and-bg-color: #000028;
+  --header-font-color-button: #ff0070;
+  --header-border-button-hover: #ff007066;
+  --header-border-button: #ff0070;
+  --corner-color: #ff0070;
+  --card-question-color: #ff0070;
+  --shadow-and-bg-color-rec: var(--shadow-and-bg-color);
+  --shadow: 2px 2px var(--shadow-and-bg-color);
+  --shadow-rec: 0 0 4px 2px var(--shadow-and-bg-color);
+  --background-color: #000028;
+  --block-padding: 80px;
+  --card-column: calc(100% * (256 / (256 + 472)))
+      calc(100% * (472 / (256 + 472)));
+  --card-columns: repeat(auto-fill, minmax(calc((100% - 40px) / 3), 1fr));
 }

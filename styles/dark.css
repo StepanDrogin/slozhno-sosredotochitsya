@@ -1,23 +1,19 @@
 .page.theme_dark {
-  --main-color: #000028;
-  --main-font-color: #f1b2ce;
-  --main-title-color: #db00ff;
-  --accent-color: #ff0070;
-  --outline-color: #ff0070;
-  --theme-button-color: #ff0070;
-  --title-color: #ff0070;
-  --accent-title-color: #000028;
-  --hover-color: rgba(255, 0, 112, 0.4);
-
-  --main-font: "IBM Plex mono";
-  --main-font-size: 18px;
-  --main-font-weight: 400;
-  --accent-font-weight: 700;
-
-  --header-cover: url(../images/cover-image-dark.png);
-  --container-padding: min(2.67vi, 20px);
-}
-
-.page.theme_dark .header__decorative-element {
-  display: block;
+  --background-image: url(../images/cover-image-dark.png);
+  --shadow-and-bg-color: #ff0070;
+  --shadow-and-bg-color-rec: #ff0070;
+  --header-font-color: #db00ff;
+  --font-color: #f1b2ce;
+  --main-font-color: #000028;
+  --header-font-color-button: #ff0070;
+  --header-border-button-hover: rgba(255, 0, 112, 0.4);
+  --header-border-button: rgba(255, 0, 112);
+  --corner-color: #ff0070;
+  --card-question-color: #ff0070;
+  --rec: "REC";
+  --circl-radius: 9px;
+  --shadow: 2px 2px var(--shadow-and-bg-color);
+  --shadow-rec: 0 0 4px 2px var(--shadow-and-bg-color);
+  --background-color: #000028;
+  --display-decorated-text: block;
 }
